@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HubSpot vs ActiveCampaign — 2025 Comparison — The SaaS Source</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Announcement Bar -->
+<div class="announce">
+  <span>🎉 <strong>New:</strong> 2025 CRM Buyer's Guide is live — 47 tools compared</span>
+  <a href="#">Read now →</a>
+</div>
+<!-- Navigation -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+  </a>
+  <div class="nav-links">
+    <a href="category-crm.html" class="nav-link">CRM Software</a>
+    <a href="category-email-marketing.html" class="nav-link">Email Marketing</a>
+    <a href="category-marketing-automation.html" class="nav-link">Marketing Automation</a>
+    <a href="#" class="nav-link">Sales & Funnels</a>
+    <a href="#" class="nav-link">Support</a>
+    <a href="comparison-template.html" class="nav-link active">Comparisons</a>
+    <a href="alternatives-template.html" class="nav-link">Alternatives</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-search">🔍 Search software…</div>
+    <a href="comparison-template.html" class="nav-btn">Compare Tools →</a>
+  </div>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="detail-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><a href="comparison-template.html">Comparisons</a><span>›</span><span>HubSpot vs ActiveCampaign</span></div>
+  <div class="detail-title">HubSpot vs ActiveCampaign<br>— 2025 In-Depth Comparison</div>
+  <div class="detail-meta">
+    <div class="dm-item">📅 Updated Jan 2025</div><div class="dm-dot"></div>
+    <div class="dm-item">⏱ 12 min read</div><div class="dm-dot"></div>
+    <div class="dm-item">👁 14,200 readers</div><div class="dm-dot"></div>
+    <div class="dm-item">✍️ The SaaS Source Team</div>
+  </div>
+  <div class="verdict-box">
+    <div class="vb-icon">🏆</div>
+    <div class="vb-text"><strong>Quick Verdict:</strong> HubSpot wins for all-in-one CRM + marketing at scale. ActiveCampaign is the better pick if email automation depth and value are your priorities.</div>
+  </div>
+</div>
+
+<div class="detail-content">
+  <div class="detail-main">
+    <div class="sec-eyebrow" style="margin-bottom:12px;">Feature Breakdown</div>
+    <div class="cmp-table-wrap">
+      <table class="cmp">
+        <thead><tr><th>Feature</th><th class="p1">HubSpot</th><th class="p2">ActiveCampaign</th></tr></thead>
+        <tbody>
+          <tr><td class="feature-cell">Free Plan</td><td class="win">✓ Yes (generous)</td><td class="lose">✗ No</td></tr>
+          <tr><td class="feature-cell">Built-in CRM</td><td class="win">✓ Full CRM</td><td class="lose">Basic CRM add-on</td></tr>
+          <tr><td class="feature-cell">Email Automation</td><td>Solid (visual)</td><td class="win">✓ Industry-leading</td></tr>
+          <tr><td class="feature-cell">Landing Pages</td><td class="win">✓ Native builder</td><td>Limited</td></tr>
+          <tr><td class="feature-cell">A/B Testing</td><td>Paid tiers only</td><td class="win">✓ All plans</td></tr>
+          <tr><td class="feature-cell">Reporting</td><td class="win">✓ Advanced dashboards</td><td>Standard</td></tr>
+          <tr><td class="feature-cell">Starting Price</td><td class="win">Free / $20/mo</td><td>$29/mo</td></tr>
+          <tr><td class="feature-cell">Integrations</td><td class="win">✓ 1,000+</td><td>900+</td></tr>
+          <tr><td class="feature-cell">Deliverability</td><td>Good</td><td class="win">✓ Excellent</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="sec-eyebrow" style="margin-bottom:12px;">Who Should Choose Each</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:28px;">
+      <div style="background:var(--blue-pale);border:1px solid var(--blue-mid);border-radius:var(--radius-lg);padding:20px;">
+        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--blue);margin-bottom:12px;">✓ Choose HubSpot if…</div>
+        <div style="font-size:13px;color:#404050;line-height:1.7;">
+          • You need a full CRM + marketing platform<br>
+          • Your team is non-technical<br>
+          • You want a free plan to start<br>
+          • You're scaling a sales + marketing org<br>
+          • You want an all-in-one ecosystem
+        </div>
+      </div>
+      <div style="background:#F5F0FF;border:1px solid #C4B5FD;border-radius:var(--radius-lg);padding:20px;">
+        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:#7B4FD4;margin-bottom:12px;">✓ Choose ActiveCampaign if…</div>
+        <div style="font-size:13px;color:#404050;line-height:1.7;">
+          • Email automation depth is your #1 need<br>
+          • You want better value at lower tiers<br>
+          • You rely on advanced segmentation<br>
+          • You need superior deliverability<br>
+          • You're an e-commerce or creator business
+        </div>
+      </div>
+    </div>
+
+    <!-- Placeholder for long-form comparison content -->
+    <div class="prose">
+      <h2>Detailed Comparison</h2>
+      <p><em>[Long-form comparison content goes here. This section will be filled with detailed analysis of each platform, covering pricing tiers, feature deep-dives, user experience comparisons, integration ecosystems, support quality, and real-world use case recommendations.]</em></p>
+      
+      <h3>Pricing Comparison</h3>
+      <p><em>[Detailed pricing breakdown with tier-by-tier comparison tables]</em></p>
+      
+      <h3>CRM & Contact Management</h3>
+      <p><em>[Feature comparison content]</em></p>
+      
+      <h3>Email Marketing & Automation</h3>
+      <p><em>[Feature comparison content]</em></p>
+      
+      <h3>Reporting & Analytics</h3>
+      <p><em>[Feature comparison content]</em></p>
+      
+      <h3>Integration Ecosystem</h3>
+      <p><em>[Feature comparison content]</em></p>
+      
+      <h2>Final Verdict</h2>
+      <p><em>[Summary and final recommendation]</em></p>
+    </div>
+  </div>
+  <div class="detail-sticky">
+    <div class="cta-card">
+      <h3>Try HubSpot Free</h3>
+      <p>No credit card needed. Full CRM + marketing tools on the free plan.</p>
+      <a href="#" class="cta-btn cta-btn-blue">Get HubSpot Free →</a>
+      <a href="review-template.html" class="cta-btn cta-btn-ghost">Read Full Review</a>
+      <div class="cta-note">Affiliate link — we may earn a commission</div>
+    </div>
+    <div class="cta-card" style="background:var(--gray-50);border:1px solid var(--gray-200);">
+      <h3 style="color:var(--ink);">Try ActiveCampaign</h3>
+      <p style="color:#606070;">14-day free trial. No credit card required.</p>
+      <a href="#" class="cta-btn" style="background:#8B5CF6;color:white;">Start Free Trial →</a>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <div class="footer-links">
+        <a href="category-crm.html" class="footer-link">CRM Software</a>
+        <a href="category-email-marketing.html" class="footer-link">Email Marketing</a>
+        <a href="category-marketing-automation.html" class="footer-link">Marketing Automation</a>
+        <a href="#" class="footer-link">Sales &amp; Funnels</a>
+        <a href="#" class="footer-link">Customer Support</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Comparisons</h4>
+      <div class="footer-links">
+        <a href="comparison-template.html" class="footer-link">HubSpot vs Salesforce</a>
+        <a href="#" class="footer-link">Kajabi vs ClickFunnels</a>
+        <a href="#" class="footer-link">Zendesk vs Intercom</a>
+        <a href="#" class="footer-link">ActiveCampaign vs Brevo</a>
+        <a href="comparison-template.html" class="footer-link">View All →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="about.html#methodology" class="footer-link">How We Review</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="affiliate-disclosure.html" class="footer-link">Affiliate Disclosure</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 The SaaS Source · Nomad Design Holdings, LLC · <a href="privacy-policy.html">Privacy Policy</a> · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="terms-of-use.html">Terms of Use</a></div>
+    <div class="footer-legal">Independent reviews. We may earn commissions — <a href="affiliate-disclosure.html">learn how</a>.</div>
+  </div>
+</footer>
+</body>
+</html>

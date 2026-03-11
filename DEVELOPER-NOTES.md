@@ -44,7 +44,7 @@ thesaassource/
 - **Red (error):** `#E74C3C`
 
 ### Typography
-- **Headings:** [Syne](https://fonts.google.com/specimen/Syne) (800, 700, 600)
+- **Headings:** [Roboto](https://fonts.google.com/specimen/Roboto) (900, 700, 500)
 - **Body:** [DM Sans](https://fonts.google.com/specimen/DM+Sans) (300-600)
 
 ### Spacing & Layout

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home — The SaaS Source</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Announcement Bar -->
+<div class="announce">
+  <span>🎉 <strong>New:</strong> 2025 CRM Buyer's Guide is live — 47 tools compared</span>
+  <a href="#">Read now →</a>
+</div>
+<!-- Navigation -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+  </a>
+  <div class="nav-links">
+    <a href="category-crm.html" class="nav-link">CRM Software</a>
+    <a href="category-email-marketing.html" class="nav-link">Email Marketing</a>
+    <a href="category-marketing-automation.html" class="nav-link">Marketing Automation</a>
+    <a href="#" class="nav-link">Sales & Funnels</a>
+    <a href="#" class="nav-link">Support</a>
+    <a href="comparison-template.html" class="nav-link">Comparisons</a>
+    <a href="alternatives-template.html" class="nav-link">Alternatives</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-search">🔍 Search software…</div>
+    <a href="comparison-template.html" class="nav-btn">Compare Tools →</a>
+  </div>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow"><div class="eyebrow-dot"></div> Independent B2B SaaS Reviews</div>
+    <h1>Find the <span class="accent">Right Software.</span> Stop Guessing.</h1>
+    <p class="hero-sub">Unbiased comparisons, detailed reviews, and honest breakdowns for 200+ B2B SaaS tools — so you can make confident buying decisions fast.</p>
+    <div class="hero-actions">
+      <a href="comparison-template.html" class="btn-primary">Browse Comparisons →</a>
+      <a href="category-crm.html" class="btn-ghost">🔍 Search All Tools</a>
+    </div>
+    <div class="hero-social">
+      <div class="s-avatars">
+        <div class="s-avatar av1">MR</div>
+        <div class="s-avatar av2">JK</div>
+        <div class="s-avatar av3">ST</div>
+        <div class="s-avatar av4">AL</div>
+      </div>
+      <div class="social-text"><strong>12,400+ readers</strong><br>making smarter software decisions</div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-card">
+      <div class="hc-header">
+        <div class="hc-title">Find Your Best Match</div>
+        <div class="hc-badge">200+ Tools</div>
+      </div>
+      <div class="hc-search"><span>🔍</span><div class="hc-search-text">Search CRM, email, funnels…</div></div>
+      <div class="hc-tags">
+        <a href="category-crm.html" class="hc-tag on">CRM</a>
+        <a href="category-email-marketing.html" class="hc-tag">Email</a>
+        <a href="#" class="hc-tag">Funnels</a>
+        <a href="#" class="hc-tag">Support</a>
+        <a href="category-marketing-automation.html" class="hc-tag">Automation</a>
+      </div>
+      <div class="hc-items">
+        <a href="review-template.html" class="hc-item"><div class="hc-ico" style="background:#E84040;">SF</div><div class="hc-meta"><div class="hc-name">Salesforce</div><div class="hc-cat">CRM</div></div><div class="hc-pill pill-amber">Enterprise</div></a>
+        <a href="review-template.html" class="hc-item"><div class="hc-ico" style="background:#F97316;">HS</div><div class="hc-meta"><div class="hc-name">HubSpot</div><div class="hc-cat">CRM + Marketing</div></div><div class="hc-pill pill-green">Top Pick</div></a>
+        <a href="review-template.html" class="hc-item"><div class="hc-ico" style="background:#8B5CF6;">AC</div><div class="hc-meta"><div class="hc-name">ActiveCampaign</div><div class="hc-cat">Email + Automation</div></div><div class="hc-pill pill-blue">Best Value</div></a>
+        <a href="review-template.html" class="hc-item"><div class="hc-ico" style="background:#059669;">KJ</div><div class="hc-meta"><div class="hc-name">Kajabi</div><div class="hc-cat">Courses + Funnels</div></div><div class="hc-pill pill-blue">Trending</div></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Category Bar -->
+<div class="catbar">
+  <div class="catbar-inner">
+    <div class="cat-item on">All <span class="cat-cnt">200</span></div>
+    <a href="category-crm.html" class="cat-item">CRM <span class="cat-cnt">38</span></a>
+    <a href="category-email-marketing.html" class="cat-item">Email Marketing <span class="cat-cnt">29</span></a>
+    <a href="category-marketing-automation.html" class="cat-item">Marketing Automation <span class="cat-cnt">24</span></a>
+    <div class="cat-item">Sales &amp; Funnels <span class="cat-cnt">22</span></div>
+    <div class="cat-item">Customer Support <span class="cat-cnt">18</span></div>
+    <a href="comparison-template.html" class="cat-item">Comparisons <span class="cat-cnt">85</span></a>
+    <a href="alternatives-template.html" class="cat-item">Alternatives <span class="cat-cnt">60</span></a>
+    <div class="cat-item">Pricing <span class="cat-cnt">55</span></div>
+  </div>
+</div>
+
+<!-- Featured Comparisons -->
+<section class="section-full">
+  <div style="max-width:1200px;margin:0 auto;padding:52px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Most Popular</div>
+        <div class="sec-title">Head-to-Head Comparisons</div>
+      </div>
+      <a href="comparison-template.html" class="sec-link">View all comparisons →</a>
+    </div>
+    <div class="comp-grid">
+      <a href="comparison-template.html" class="comp-card" style="text-decoration:none;">
+        <div class="cc-top">
+          <div class="vs-row"><div class="p-badge" style="background:#F97316;">HS</div><div class="vs-sep">VS</div><div class="p-badge" style="background:#8B5CF6;">AC</div></div>
+          <div class="cc-meta"><div class="cc-reads">👁 14.2k reads</div><div class="cc-verdict">HubSpot Wins</div></div>
+        </div>
+        <div class="cc-body">
+          <div class="cc-title">HubSpot vs ActiveCampaign — Which Is Better for SMBs in 2025?</div>
+          <div class="cc-snip">HubSpot edges out ActiveCampaign for all-in-one simplicity, but ActiveCampaign is the smarter pick for pure email automation at lower cost.</div>
+          <div class="cc-tags"><span class="cc-tag">CRM</span><span class="cc-tag">Email</span><span class="cc-tag">SMB</span></div>
+        </div>
+      </a>
+      <a href="comparison-template.html" class="comp-card" style="text-decoration:none;">
+        <div class="cc-top">
+          <div class="vs-row"><div class="p-badge" style="background:#059669;">KJ</div><div class="vs-sep">VS</div><div class="p-badge" style="background:#DC2626;">CF</div></div>
+          <div class="cc-meta"><div class="cc-reads">👁 11.7k reads</div><div class="cc-verdict">Depends on Use Case</div></div>
+        </div>
+        <div class="cc-body">
+          <div class="cc-title">Kajabi vs ClickFunnels — Course Creators vs Funnel Builders</div>
+          <div class="cc-snip">Kajabi is purpose-built for creators. ClickFunnels is better if your sole focus is sales funnels. The overlap is smaller than you'd think.</div>
+          <div class="cc-tags"><span class="cc-tag">Funnels</span><span class="cc-tag">Courses</span><span class="cc-tag">Creators</span></div>
+        </div>
+      </a>
+      <a href="comparison-template.html" class="comp-card" style="text-decoration:none;">
+        <div class="cc-top">
+          <div class="vs-row"><div class="p-badge" style="background:#0891B2;">ZD</div><div class="vs-sep">VS</div><div class="p-badge" style="background:#7C3AED;">IC</div></div>
+          <div class="cc-meta"><div class="cc-reads">👁 8.9k reads</div><div class="cc-verdict">Zendesk for Scale</div></div>
+        </div>
+        <div class="cc-body">
+          <div class="cc-title">Zendesk vs Intercom — The Support Platform Showdown</div>
+          <div class="cc-snip">Zendesk leads in ticketing and enterprise scale. Intercom wins for conversational support and product-led growth companies.</div>
+          <div class="cc-tags"><span class="cc-tag">Support</span><span class="cc-tag">Enterprise</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Top Reviewed -->
+<section class="section-full alt">
+  <div style="max-width:1200px;margin:0 auto;padding:52px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Expert Reviews</div>
+        <div class="sec-title">Top-Rated B2B SaaS Tools</div>
+      </div>
+      <a href="category-crm.html" class="sec-link">See all reviews →</a>
+    </div>
+    <div class="rev-grid">
+<div class="rev-card">
+  <div class="rev-stripe" style="background:#F97316;"></div>
+  <div class="rev-body">
+    <div class="rv-head">
+      <div class="rv-logo" style="background:#F97316;">HS</div>
+      <div><div class="rv-name">HubSpot</div><div class="rv-cat">CRM & Marketing</div></div>
+    </div>
+    <div class="rv-score">
+      <div class="rv-num">9.1</div>
+      <div><div class="rv-stars">★★★★★</div><div class="rv-cnt">Verified reviews</div></div>
+    </div>
+    <div class="rv-bars">
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Ease of Use</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:85%;"></div></div><div class="rv-bar-val">8.5</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Features</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:88%;"></div></div><div class="rv-bar-val">8.8</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Value</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:79%;"></div></div><div class="rv-bar-val">7.9</div></div>
+    </div>
+    <a href="review-template.html" class="rv-tag">Read Full Review →</a>
+  </div>
+</div><div class="rev-card">
+  <div class="rev-stripe" style="background:#8B5CF6;"></div>
+  <div class="rev-body">
+    <div class="rv-head">
+      <div class="rv-logo" style="background:#8B5CF6;">AC</div>
+      <div><div class="rv-name">ActiveCampaign</div><div class="rv-cat">Email Automation</div></div>
+    </div>
+    <div class="rv-score">
+      <div class="rv-num">8.8</div>
+      <div><div class="rv-stars">★★★★★</div><div class="rv-cnt">Verified reviews</div></div>
+    </div>
+    <div class="rv-bars">
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Ease of Use</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:85%;"></div></div><div class="rv-bar-val">8.5</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Features</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:88%;"></div></div><div class="rv-bar-val">8.8</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Value</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:79%;"></div></div><div class="rv-bar-val">7.9</div></div>
+    </div>
+    <a href="review-template.html" class="rv-tag">Read Full Review →</a>
+  </div>
+</div><div class="rev-card">
+  <div class="rev-stripe" style="background:#059669;"></div>
+  <div class="rev-body">
+    <div class="rv-head">
+      <div class="rv-logo" style="background:#059669;">KJ</div>
+      <div><div class="rv-name">Kajabi</div><div class="rv-cat">Courses & Funnels</div></div>
+    </div>
+    <div class="rv-score">
+      <div class="rv-num">8.6</div>
+      <div><div class="rv-stars">★★★★★</div><div class="rv-cnt">Verified reviews</div></div>
+    </div>
+    <div class="rv-bars">
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Ease of Use</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:85%;"></div></div><div class="rv-bar-val">8.5</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Features</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:88%;"></div></div><div class="rv-bar-val">8.8</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Value</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:79%;"></div></div><div class="rv-bar-val">7.9</div></div>
+    </div>
+    <a href="review-template.html" class="rv-tag">Read Full Review →</a>
+  </div>
+</div><div class="rev-card">
+  <div class="rev-stripe" style="background:#DC2626;"></div>
+  <div class="rev-body">
+    <div class="rv-head">
+      <div class="rv-logo" style="background:#DC2626;">CF</div>
+      <div><div class="rv-name">ClickFunnels</div><div class="rv-cat">Sales Funnels</div></div>
+    </div>
+    <div class="rv-score">
+      <div class="rv-num">8.3</div>
+      <div><div class="rv-stars">★★★★★</div><div class="rv-cnt">Verified reviews</div></div>
+    </div>
+    <div class="rv-bars">
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Ease of Use</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:85%;"></div></div><div class="rv-bar-val">8.5</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Features</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:88%;"></div></div><div class="rv-bar-val">8.8</div></div>
+      <div class="rv-bar-row"><div class="rv-bar-lbl">Value</div><div class="rv-bar-track"><div class="rv-bar-fill" style="width:79%;"></div></div><div class="rv-bar-val">7.9</div></div>
+    </div>
+    <a href="review-template.html" class="rv-tag">Read Full Review →</a>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- Best-For Table -->
+<section class="section-full">
+  <div style="max-width:1200px;margin:0 auto;padding:52px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Quick Reference</div>
+        <div class="sec-title">Best CRM Software at a Glance</div>
+      </div>
+      <a href="category-crm.html" class="sec-link">View full guide →</a>
+    </div>
+    <div class="bf-wrap">
+      <table class="bf">
+        <thead><tr><th>Software</th><th>Best For</th><th>Starting Price</th><th>Free Plan</th><th>Automation</th><th>Our Rating</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#F97316;">HS</div><div><div class="td-name">HubSpot</div><div class="td-cat">CRM + Marketing</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">All-in-One SMB</span></td>
+            <td><span class="td-price">Free <small>/ $20/mo+</small></span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-green">9.1 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#8B5CF6;">AC</div><div><div class="td-name">ActiveCampaign</div><div class="td-cat">Email + Auto</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Email Automation</span></td>
+            <td><span class="td-price">$29 <small>/mo</small></span></td>
+            <td><span class="cross">—</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-green">8.8 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#059669;">KJ</div><div><div class="td-name">Kajabi</div><div class="td-cat">Courses + Funnels</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Course Creators</span></td>
+            <td><span class="td-price">$69 <small>/mo</small></span></td>
+            <td><span class="cross">—</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-amber">8.6 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#DC2626;">CF</div><div><div class="td-name">ClickFunnels</div><div class="td-cat">Sales Funnels</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Sales Funnels</span></td>
+            <td><span class="td-price">$97 <small>/mo</small></span></td>
+            <td><span class="cross">—</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-amber">8.3 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#0891B2;">BR</div><div><div class="td-name">Brevo</div><div class="td-cat">Email Marketing</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Budget Email</span></td>
+            <td><span class="td-price">Free <small>/ $25/mo+</small></span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-amber">8.1 / 10</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <div class="footer-links">
+        <a href="category-crm.html" class="footer-link">CRM Software</a>
+        <a href="category-email-marketing.html" class="footer-link">Email Marketing</a>
+        <a href="category-marketing-automation.html" class="footer-link">Marketing Automation</a>
+        <a href="#" class="footer-link">Sales &amp; Funnels</a>
+        <a href="#" class="footer-link">Customer Support</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Comparisons</h4>
+      <div class="footer-links">
+        <a href="comparison-template.html" class="footer-link">HubSpot vs Salesforce</a>
+        <a href="#" class="footer-link">Kajabi vs ClickFunnels</a>
+        <a href="#" class="footer-link">Zendesk vs Intercom</a>
+        <a href="#" class="footer-link">ActiveCampaign vs Brevo</a>
+        <a href="comparison-template.html" class="footer-link">View All →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="about.html#methodology" class="footer-link">How We Review</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="affiliate-disclosure.html" class="footer-link">Affiliate Disclosure</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 The SaaS Source · Nomad Design Holdings, LLC · <a href="privacy-policy.html">Privacy Policy</a> · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="terms-of-use.html">Terms of Use</a></div>
+    <div class="footer-legal">Independent reviews. We may earn commissions — <a href="affiliate-disclosure.html">learn how</a>.</div>
+  </div>
+</footer>
+</body>
+</html>

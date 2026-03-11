@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Marketing — The SaaS Source</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Announcement Bar -->
+<div class="announce">
+  <span>🎉 <strong>New:</strong> 2025 CRM Buyer's Guide is live — 47 tools compared</span>
+  <a href="#">Read now →</a>
+</div>
+<!-- Navigation -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+  </a>
+  <div class="nav-links">
+    <a href="category-crm.html" class="nav-link">CRM Software</a>
+    <a href="category-email-marketing.html" class="nav-link active">Email Marketing</a>
+    <a href="category-marketing-automation.html" class="nav-link">Marketing Automation</a>
+    <a href="#" class="nav-link">Sales & Funnels</a>
+    <a href="#" class="nav-link">Support</a>
+    <a href="comparison-template.html" class="nav-link">Comparisons</a>
+    <a href="alternatives-template.html" class="nav-link">Alternatives</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-search">🔍 Search software…</div>
+    <a href="comparison-template.html" class="nav-btn">Compare Tools →</a>
+  </div>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- Category Hero -->
+<div class="cat-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Email Marketing</span></div>
+  <h1>Best Email Marketing Software<br><span style="color:var(--blue);">— 2025 Rankings & Reviews</span></h1>
+  <p class="cat-hero-sub">Expert analysis of the top email marketing platforms. Compare features, pricing, and deliverability to find your perfect fit.</p>
+  <div class="cat-stats">
+    <div class="cat-stat"><div class="cat-stat-num">4</div><div class="cat-stat-lbl">Tools Reviewed</div></div>
+    <div class="cat-stat"><div class="cat-stat-num">2,840+</div><div class="cat-stat-lbl">User Reviews</div></div>
+    <div class="cat-stat"><div class="cat-stat-num">Monthly</div><div class="cat-stat-lbl">Updated</div></div>
+  </div>
+</div>
+
+<!-- Filters -->
+<div class="cat-filters">
+  <span class="cat-filter-label">Filter by:</span>
+  <button class="cat-filter-btn active">All</button>
+  <button class="cat-filter-btn">Free Plan</button>
+  <button class="cat-filter-btn">Best Value</button>
+  <button class="cat-filter-btn">Enterprise</button>
+  <button class="cat-filter-btn">Small Business</button>
+  <button class="cat-filter-btn">Highest Rated</button>
+</div>
+
+<!-- Software Rankings -->
+<section class="section-full">
+  <div style="max-width:900px;margin:0 auto;padding:36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Expert Rankings</div>
+        <div class="sec-title">Top Email Marketing Tools for 2025</div>
+      </div>
+    </div>
+    <div class="cat-list">
+<div class="cat-list-item">
+  <div class="cat-list-logo" style="background:#8B5CF6;">AC</div>
+  <div class="cat-list-info">
+    <h3>#1 — ActiveCampaign</h3>
+    <p>Placeholder description for ActiveCampaign. This content will be manually entered with a detailed summary of the tool's strengths, ideal use cases, and standout features for this category.</p>
+    <div class="cat-list-tags">
+      <span class="cc-tag">Email Automation</span>
+      <span class="cc-tag">Email Automation</span>
+    </div>
+  </div>
+  <div class="cat-list-actions">
+    <div class="cat-list-score">8.8<span style="font-size:12px;color:var(--gray-mid);font-weight:400;">/10</span></div>
+    <div class="cat-list-price">$29/mo</div>
+    <a href="review-template.html" class="btn-primary" style="font-size:12px;padding:8px 16px;">Read Review →</a>
+  </div>
+</div><div class="cat-list-item">
+  <div class="cat-list-logo" style="background:#0891B2;">BR</div>
+  <div class="cat-list-info">
+    <h3>#2 — Brevo</h3>
+    <p>Placeholder description for Brevo. This content will be manually entered with a detailed summary of the tool's strengths, ideal use cases, and standout features for this category.</p>
+    <div class="cat-list-tags">
+      <span class="cc-tag">Budget Email</span>
+      <span class="cc-tag">Email Marketing</span>
+    </div>
+  </div>
+  <div class="cat-list-actions">
+    <div class="cat-list-score">8.1<span style="font-size:12px;color:var(--gray-mid);font-weight:400;">/10</span></div>
+    <div class="cat-list-price">Free / $25/mo</div>
+    <a href="review-template.html" class="btn-primary" style="font-size:12px;padding:8px 16px;">Read Review →</a>
+  </div>
+</div><div class="cat-list-item">
+  <div class="cat-list-logo" style="background:#FFE01B;">MC</div>
+  <div class="cat-list-info">
+    <h3>#3 — Mailchimp</h3>
+    <p>Placeholder description for Mailchimp. This content will be manually entered with a detailed summary of the tool's strengths, ideal use cases, and standout features for this category.</p>
+    <div class="cat-list-tags">
+      <span class="cc-tag">Beginners</span>
+      <span class="cc-tag">Email Marketing</span>
+    </div>
+  </div>
+  <div class="cat-list-actions">
+    <div class="cat-list-score">7.9<span style="font-size:12px;color:var(--gray-mid);font-weight:400;">/10</span></div>
+    <div class="cat-list-price">Free / $13/mo</div>
+    <a href="review-template.html" class="btn-primary" style="font-size:12px;padding:8px 16px;">Read Review →</a>
+  </div>
+</div><div class="cat-list-item">
+  <div class="cat-list-logo" style="background:#F97316;">HS</div>
+  <div class="cat-list-info">
+    <h3>#4 — HubSpot</h3>
+    <p>Placeholder description for HubSpot. This content will be manually entered with a detailed summary of the tool's strengths, ideal use cases, and standout features for this category.</p>
+    <div class="cat-list-tags">
+      <span class="cc-tag">All-in-One SMB</span>
+      <span class="cc-tag">CRM & Marketing</span>
+    </div>
+  </div>
+  <div class="cat-list-actions">
+    <div class="cat-list-score">9.1<span style="font-size:12px;color:var(--gray-mid);font-weight:400;">/10</span></div>
+    <div class="cat-list-price">Free / $20/mo</div>
+    <a href="review-template.html" class="btn-primary" style="font-size:12px;padding:8px 16px;">Read Review →</a>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- Quick Comparison Table -->
+<section class="section-full alt">
+  <div style="max-width:900px;margin:0 auto;padding:52px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Quick Reference</div>
+        <div class="sec-title">Email Marketing at a Glance</div>
+      </div>
+    </div>
+    <div class="bf-wrap">
+      <table class="bf">
+        <thead><tr><th>Software</th><th>Best For</th><th>Starting Price</th><th>Free Plan</th><th>Our Rating</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#8B5CF6;">AC</div><div><div class="td-name">ActiveCampaign</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Email Automation</span></td>
+            <td><span class="td-price">$29/mo</span></td>
+            <td><span class="cross">—</span></td>
+            <td><span class="bf-pill bf-pill-green">8.8 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#0891B2;">BR</div><div><div class="td-name">Brevo</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Budget Email</span></td>
+            <td><span class="td-price">Free / $25/mo</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-green">8.1 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#FFE01B;">MC</div><div><div class="td-name">Mailchimp</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">Beginners</span></td>
+            <td><span class="td-price">Free / $13/mo</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-green">7.9 / 10</span></td>
+          </tr>
+          <tr>
+            <td><div class="td-prod"><div class="td-ico" style="background:#F97316;">HS</div><div><div class="td-name">HubSpot</div></div></div></td>
+            <td><span class="bf-pill bf-pill-blue">All-in-One SMB</span></td>
+            <td><span class="td-price">Free / $20/mo</span></td>
+            <td><span class="check">✓</span></td>
+            <td><span class="bf-pill bf-pill-green">9.1 / 10</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- Related Comparisons -->
+<section class="section-full">
+  <div style="max-width:900px;margin:0 auto;padding:52px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Head-to-Head</div>
+        <div class="sec-title">Popular Comparisons</div>
+      </div>
+      <a href="comparison-template.html" class="sec-link">View all →</a>
+    </div>
+    <div class="comp-grid" style="grid-template-columns:repeat(2,1fr);">
+      <a href="comparison-template.html" class="comp-card" style="text-decoration:none;">
+        <div class="cc-top">
+          <div class="vs-row"><div class="p-badge" style="background:#F97316;">HS</div><div class="vs-sep">VS</div><div class="p-badge" style="background:#8B5CF6;">AC</div></div>
+          <div class="cc-meta"><div class="cc-reads">👁 14.2k reads</div><div class="cc-verdict">HubSpot Wins</div></div>
+        </div>
+        <div class="cc-body">
+          <div class="cc-title">HubSpot vs ActiveCampaign — 2025</div>
+          <div class="cc-snip">The all-in-one CRM vs the email automation specialist.</div>
+        </div>
+      </a>
+      <a href="comparison-template.html" class="comp-card" style="text-decoration:none;">
+        <div class="cc-top">
+          <div class="vs-row"><div class="p-badge" style="background:#F97316;">HS</div><div class="vs-sep">VS</div><div class="p-badge" style="background:#E84040;">SF</div></div>
+          <div class="cc-meta"><div class="cc-reads">👁 18.1k reads</div><div class="cc-verdict">Depends on Size</div></div>
+        </div>
+        <div class="cc-body">
+          <div class="cc-title">HubSpot vs Salesforce — 2025</div>
+          <div class="cc-snip">SMB favorite vs enterprise standard. Which fits your team?</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section-full" id="submit-review">
+  <div style="max-width:720px;margin:0 auto;">
+    <div class="review-form-section">
+      <h2>Submit Your Review of Email Marketing Tools</h2>
+      <p class="form-subtitle">Share your experience to help other buyers make smarter decisions. All reviews are moderated before publishing.</p>
+      
+      <form id="reviewForm" action="#" method="POST">
+        <div class="form-grid-2">
+          <div class="form-row">
+            <label for="reviewer-name">Your Name *</label>
+            <input type="text" id="reviewer-name" name="reviewer_name" placeholder="Jane Smith" required>
+          </div>
+          <div class="form-row">
+            <label for="reviewer-email">Email (not published) *</label>
+            <input type="email" id="reviewer-email" name="reviewer_email" placeholder="jane@company.com" required>
+            <div class="hint">We'll verify your review but never share your email.</div>
+          </div>
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-row">
+            <label for="company-name">Company Name</label>
+            <input type="text" id="company-name" name="company_name" placeholder="Your company">
+          </div>
+          <div class="form-row">
+            <label for="company-size">Company Size</label>
+            <select id="company-size" name="company_size">
+              <option value="">Select…</option>
+              <option>1-10 employees</option>
+              <option>11-50 employees</option>
+              <option>51-200 employees</option>
+              <option>201-1000 employees</option>
+              <option>1000+ employees</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="role">Your Role / Job Title</label>
+          <input type="text" id="role" name="role" placeholder="e.g., Marketing Manager, CEO, Sales Director">
+        </div>
+
+        <div class="form-row">
+          <label>Overall Rating *</label>
+          <div class="star-rating-input" id="overall-rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+          </div>
+          <input type="hidden" name="overall_rating" id="overall-rating-value">
+        </div>
+
+        <div class="form-grid-3">
+          <div class="form-row">
+            <label>Ease of Use</label>
+            <div class="star-rating-input" data-field="ease_of_use">
+              <span class="star" data-value="1">★</span><span class="star" data-value="2">★</span><span class="star" data-value="3">★</span><span class="star" data-value="4">★</span><span class="star" data-value="5">★</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <label>Features</label>
+            <div class="star-rating-input" data-field="features">
+              <span class="star" data-value="1">★</span><span class="star" data-value="2">★</span><span class="star" data-value="3">★</span><span class="star" data-value="4">★</span><span class="star" data-value="5">★</span>
+            </div>
+          </div>
+          <div class="form-row">
+            <label>Value for Money</label>
+            <div class="star-rating-input" data-field="value">
+              <span class="star" data-value="1">★</span><span class="star" data-value="2">★</span><span class="star" data-value="3">★</span><span class="star" data-value="4">★</span><span class="star" data-value="5">★</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="review-title">Review Title *</label>
+          <input type="text" id="review-title" name="review_title" placeholder="Summarize your experience in one line" required>
+        </div>
+
+        <div class="form-row">
+          <label for="pros">What do you like best? *</label>
+          <textarea id="pros" name="pros" placeholder="Describe what works well…" required></textarea>
+        </div>
+
+        <div class="form-row">
+          <label for="cons">What could be improved?</label>
+          <textarea id="cons" name="cons" placeholder="Describe any drawbacks or limitations…"></textarea>
+        </div>
+
+        <div class="form-row">
+          <label for="use-case">How do you use this tool?</label>
+          <textarea id="use-case" name="use_case" placeholder="Briefly describe your use case and how long you've been using it…"></textarea>
+        </div>
+
+        <div class="form-row" style="margin-top:8px;">
+          <label style="display:flex;align-items:center;gap:8px;font-weight:400;">
+            <input type="checkbox" name="agree_terms" required>
+            I confirm this is my honest experience and I agree to the <a href="terms-of-use.html" style="color:var(--blue);text-decoration:underline;">Terms of Use</a>.
+          </label>
+        </div>
+
+        <div style="margin-top:24px;">
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">Submit Review →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <div class="footer-links">
+        <a href="category-crm.html" class="footer-link">CRM Software</a>
+        <a href="category-email-marketing.html" class="footer-link">Email Marketing</a>
+        <a href="category-marketing-automation.html" class="footer-link">Marketing Automation</a>
+        <a href="#" class="footer-link">Sales &amp; Funnels</a>
+        <a href="#" class="footer-link">Customer Support</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Comparisons</h4>
+      <div class="footer-links">
+        <a href="comparison-template.html" class="footer-link">HubSpot vs Salesforce</a>
+        <a href="#" class="footer-link">Kajabi vs ClickFunnels</a>
+        <a href="#" class="footer-link">Zendesk vs Intercom</a>
+        <a href="#" class="footer-link">ActiveCampaign vs Brevo</a>
+        <a href="comparison-template.html" class="footer-link">View All →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="about.html#methodology" class="footer-link">How We Review</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="affiliate-disclosure.html" class="footer-link">Affiliate Disclosure</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 The SaaS Source · Nomad Design Holdings, LLC · <a href="privacy-policy.html">Privacy Policy</a> · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="terms-of-use.html">Terms of Use</a></div>
+    <div class="footer-legal">Independent reviews. We may earn commissions — <a href="affiliate-disclosure.html">learn how</a>.</div>
+  </div>
+</footer>
+
+<script>
+// Star rating interactivity
+document.querySelectorAll('.star-rating-input').forEach(group => {
+  const stars = group.querySelectorAll('.star');
+  stars.forEach(star => {
+    star.addEventListener('click', () => {
+      const val = parseInt(star.dataset.value);
+      stars.forEach(s => {
+        s.classList.toggle('active', parseInt(s.dataset.value) <= val);
+      });
+      // Set hidden input if exists
+      const hiddenInput = group.nextElementSibling;
+      if (hiddenInput && hiddenInput.type === 'hidden') {
+        hiddenInput.value = val;
+      }
+    });
+    star.addEventListener('mouseenter', () => {
+      const val = parseInt(star.dataset.value);
+      stars.forEach(s => {
+        s.style.color = parseInt(s.dataset.value) <= val ? '#E8A020' : '';
+      });
+    });
+    group.addEventListener('mouseleave', () => {
+      stars.forEach(s => {
+        s.style.color = s.classList.contains('active') ? '#E8A020' : '';
+      });
+    });
+  });
+});
+
+// Form submission handler (placeholder)
+document.getElementById('reviewForm')?.addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Thank you! Your review has been submitted for moderation. We\'ll notify you once it\'s published.');
+  this.reset();
+  document.querySelectorAll('.star').forEach(s => s.classList.remove('active'));
+});
+</script>
+</body>
+</html>

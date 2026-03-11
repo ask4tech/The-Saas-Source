@@ -17,7 +17,7 @@ HEAD = lambda title, css_path="css/styles.css": f"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title} — The SaaS Source</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{css_path}">
 </head>
 <body>
@@ -43,7 +43,7 @@ def NAV(active=""):
     nav_html = """<!-- Navigation -->
 <nav class="nav">
   <a href="index.html" class="nav-logo">
-    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+    <img src="images/logo.png" alt="The SaaS Source" class="nav-logo-img">
   </a>
   <div class="nav-links">
 """
@@ -65,7 +65,7 @@ FOOTER = """<!-- Footer -->
 <footer class="footer">
   <div class="footer-grid">
     <div class="footer-brand">
-      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <div class="footer-logo"><img src="images/logo.png" alt="The SaaS Source" class="footer-logo-img"></div>
       <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
     </div>
     <div class="footer-col">
@@ -328,6 +328,7 @@ def build_homepage():
     return HEAD("Home") + ANNOUNCE_BAR + NAV() + """
 <!-- Hero -->
 <section class="hero">
+  <div class="hero-inner">
   <div class="hero-left">
     <div class="hero-eyebrow"><div class="eyebrow-dot"></div> Independent B2B SaaS Reviews</div>
     <h1>Find the <span class="accent">Right Software.</span> Stop Guessing.</h1>
@@ -517,6 +518,7 @@ def build_category_page(category_name, slug, nav_key, products_list, description
     content = HEAD(category_name) + ANNOUNCE_BAR + NAV(nav_key) + f"""
 <!-- Category Hero -->
 <div class="cat-hero">
+  <div class="hero-inner">
   <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>{category_name}</span></div>
   <h1>Best {category_name} Software<br><span style="color:var(--blue);">— 2025 Rankings & Reviews</span></h1>
   <p class="cat-hero-sub">{description}</p>

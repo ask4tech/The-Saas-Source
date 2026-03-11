@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best HubSpot Alternatives 2025 — The SaaS Source</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Announcement Bar -->
+<div class="announce">
+  <span>🎉 <strong>New:</strong> 2025 CRM Buyer's Guide is live — 47 tools compared</span>
+  <a href="#">Read now →</a>
+</div>
+<!-- Navigation -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+  </a>
+  <div class="nav-links">
+    <a href="category-crm.html" class="nav-link">CRM Software</a>
+    <a href="category-email-marketing.html" class="nav-link">Email Marketing</a>
+    <a href="category-marketing-automation.html" class="nav-link">Marketing Automation</a>
+    <a href="#" class="nav-link">Sales & Funnels</a>
+    <a href="#" class="nav-link">Support</a>
+    <a href="comparison-template.html" class="nav-link">Comparisons</a>
+    <a href="alternatives-template.html" class="nav-link active">Alternatives</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-search">🔍 Search software…</div>
+    <a href="comparison-template.html" class="nav-btn">Compare Tools →</a>
+  </div>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="detail-hero">
+  <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><a href="#">Alternatives</a><span>›</span><span>HubSpot Alternatives</span></div>
+  <div class="detail-title">Best HubSpot Alternatives<br><span style="color:var(--blue);">2025 Expert Picks</span></div>
+  <div class="detail-meta">
+    <div class="dm-item">📅 Updated Jan 2025</div><div class="dm-dot"></div>
+    <div class="dm-item">⏱ 10 min read</div><div class="dm-dot"></div>
+    <div class="dm-item">👁 12,300 readers</div>
+  </div>
+  <div class="verdict-box">
+    <div class="vb-icon">💡</div>
+    <div class="vb-text"><strong>Why look beyond HubSpot?</strong> While HubSpot is a top all-in-one CRM, its pricing escalates quickly. These alternatives may be better fits depending on your specific needs and budget.</div>
+  </div>
+</div>
+
+<section class="section-full">
+  <div style="max-width:1000px;margin:0 auto;padding:48px 36px;">
+    <div class="sec-head">
+      <div>
+        <div class="sec-eyebrow">Top Picks</div>
+        <div class="sec-title">HubSpot Alternatives at a Glance</div>
+      </div>
+    </div>
+    <div class="alts-grid">
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#8B5CF6;">AC</div>
+        <div class="alt-info">
+          <div class="alt-name">ActiveCampaign</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">$29/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.8</span></span>
+          </div>
+        </div>
+      </a>
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#E84040;">SF</div>
+        <div class="alt-info">
+          <div class="alt-name">Salesforce</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">$25/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.7</span></span>
+          </div>
+        </div>
+      </a>
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#059669;">KJ</div>
+        <div class="alt-info">
+          <div class="alt-name">Kajabi</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">$69/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.6</span></span>
+          </div>
+        </div>
+      </a>
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#0891B2;">BR</div>
+        <div class="alt-info">
+          <div class="alt-name">Brevo</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">Free / $25/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.1</span></span>
+          </div>
+        </div>
+      </a>
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#0891B2;">ZD</div>
+        <div class="alt-info">
+          <div class="alt-name">Zendesk</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">$19/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.5</span></span>
+          </div>
+        </div>
+      </a>
+      <a href="review-template.html" class="alt-card" style="text-decoration:none;">
+        <div class="alt-ico" style="background:#7C3AED;">IC</div>
+        <div class="alt-info">
+          <div class="alt-name">Intercom</div>
+          <div class="alt-desc">Placeholder description — ideal alternative for specific use cases. Content to be manually entered.</div>
+          <div class="alt-bottom">
+            <span class="alt-price">$74/mo</span>
+            <span class="alt-rating"><span class="alt-stars">★★★★★</span><span class="alt-score">8.4</span></span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Detailed Alternative Breakdown -->
+<section class="section-full alt">
+  <div style="max-width:720px;margin:0 auto;padding:48px 36px;">
+    <div class="prose">
+      <h2>Choosing the Right HubSpot Alternative</h2>
+      <p><em>[Long-form content analyzing each alternative in detail, with specific recommendations based on use case, team size, and budget. This content will be manually entered.]</em></p>
+      
+      <h3>Best for Email Automation: ActiveCampaign</h3>
+      <p><em>[Detailed analysis]</em></p>
+      
+      <h3>Best for Enterprise: Salesforce</h3>
+      <p><em>[Detailed analysis]</em></p>
+      
+      <h3>Best for Course Creators: Kajabi</h3>
+      <p><em>[Detailed analysis]</em></p>
+      
+      <h3>Best Budget Option: Brevo</h3>
+      <p><em>[Detailed analysis]</em></p>
+      
+      <h2>Final Recommendations</h2>
+      <p><em>[Summary with clear guidance on which alternative to choose based on specific needs]</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <div class="footer-links">
+        <a href="category-crm.html" class="footer-link">CRM Software</a>
+        <a href="category-email-marketing.html" class="footer-link">Email Marketing</a>
+        <a href="category-marketing-automation.html" class="footer-link">Marketing Automation</a>
+        <a href="#" class="footer-link">Sales &amp; Funnels</a>
+        <a href="#" class="footer-link">Customer Support</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Comparisons</h4>
+      <div class="footer-links">
+        <a href="comparison-template.html" class="footer-link">HubSpot vs Salesforce</a>
+        <a href="#" class="footer-link">Kajabi vs ClickFunnels</a>
+        <a href="#" class="footer-link">Zendesk vs Intercom</a>
+        <a href="#" class="footer-link">ActiveCampaign vs Brevo</a>
+        <a href="comparison-template.html" class="footer-link">View All →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="about.html#methodology" class="footer-link">How We Review</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="affiliate-disclosure.html" class="footer-link">Affiliate Disclosure</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 The SaaS Source · Nomad Design Holdings, LLC · <a href="privacy-policy.html">Privacy Policy</a> · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="terms-of-use.html">Terms of Use</a></div>
+    <div class="footer-legal">Independent reviews. We may earn commissions — <a href="affiliate-disclosure.html">learn how</a>.</div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — The SaaS Source</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-text">The <span class="accent">SaaS</span> Source</span>
+  </a>
+  <div class="nav-links">
+    <a href="category-crm.html" class="nav-link">CRM Software</a>
+    <a href="category-email-marketing.html" class="nav-link">Email Marketing</a>
+    <a href="category-marketing-automation.html" class="nav-link">Marketing Automation</a>
+    <a href="#" class="nav-link">Sales & Funnels</a>
+    <a href="#" class="nav-link">Support</a>
+    <a href="comparison-template.html" class="nav-link">Comparisons</a>
+    <a href="alternatives-template.html" class="nav-link">Alternatives</a>
+  </div>
+  <div class="nav-right">
+    <div class="nav-search">🔍 Search software…</div>
+    <a href="comparison-template.html" class="nav-btn">Compare Tools →</a>
+  </div>
+  <button class="nav-toggle"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="page-hero">
+  <h1>About Us</h1>
+</div>
+<div class="page-content">
+
+<div class="prose" style="max-width:720px;">
+  <h2>About The SaaS Source</h2>
+  <p>The SaaS Source is an independent B2B software review platform built to help businesses make smarter software buying decisions. We provide unbiased comparisons, in-depth reviews, and honest analysis of 200+ SaaS tools.</p>
+  
+  <h2>Our Mission</h2>
+  <p>We believe choosing the right software shouldn't require weeks of research, confusing demos, or trusting paid placement. Our mission is to provide clear, honest, research-backed guidance so you can find the right tool fast.</p>
+  
+  <h2 id="methodology">How We Review</h2>
+  <p>Every review on The SaaS Source follows a rigorous, standardized methodology:</p>
+  <ul>
+    <li><strong>Hands-on testing:</strong> We sign up for and use every product we review.</li>
+    <li><strong>Feature scoring:</strong> We evaluate ease of use, features, value, support, and integrations on a 10-point scale.</li>
+    <li><strong>User feedback:</strong> We collect and verify real user reviews to supplement our expert analysis.</li>
+    <li><strong>Regular updates:</strong> Reviews are refreshed at least quarterly to reflect pricing and feature changes.</li>
+    <li><strong>Transparency:</strong> We clearly disclose affiliate relationships and never let them influence our ratings.</li>
+  </ul>
+  
+  <h2>Who We Are</h2>
+  <p>The SaaS Source is a property of Nomad Design Holdings, LLC. Our team consists of SaaS industry researchers, content strategists, and technology analysts who live and breathe B2B software.</p>
+  
+  <h2>Contact Us</h2>
+  <p>Have questions, feedback, or want to suggest a tool for review? <a href="contact.html">Get in touch</a>.</p>
+</div>
+
+</div>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo">The <span class="accent">SaaS</span> Source</div>
+      <p>Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Categories</h4>
+      <div class="footer-links">
+        <a href="category-crm.html" class="footer-link">CRM Software</a>
+        <a href="category-email-marketing.html" class="footer-link">Email Marketing</a>
+        <a href="category-marketing-automation.html" class="footer-link">Marketing Automation</a>
+        <a href="#" class="footer-link">Sales &amp; Funnels</a>
+        <a href="#" class="footer-link">Customer Support</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Comparisons</h4>
+      <div class="footer-links">
+        <a href="comparison-template.html" class="footer-link">HubSpot vs Salesforce</a>
+        <a href="#" class="footer-link">Kajabi vs ClickFunnels</a>
+        <a href="#" class="footer-link">Zendesk vs Intercom</a>
+        <a href="#" class="footer-link">ActiveCampaign vs Brevo</a>
+        <a href="comparison-template.html" class="footer-link">View All →</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <div class="footer-links">
+        <a href="about.html" class="footer-link">About Us</a>
+        <a href="about.html#methodology" class="footer-link">How We Review</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="affiliate-disclosure.html" class="footer-link">Affiliate Disclosure</a>
+        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
+        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-legal">© 2025 The SaaS Source · Nomad Design Holdings, LLC · <a href="privacy-policy.html">Privacy Policy</a> · <a href="affiliate-disclosure.html">Affiliate Disclosure</a> · <a href="terms-of-use.html">Terms of Use</a></div>
+    <div class="footer-legal">Independent reviews. We may earn commissions — <a href="affiliate-disclosure.html">learn how</a>.</div>
+  </div>
+</footer>
+</body>
+</html>
