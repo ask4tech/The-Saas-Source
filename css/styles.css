@@ -797,7 +797,7 @@ table.cmp { width: 100%; border-collapse: collapse; }
 
 /* ─── CONTENT PROSE (for long-form pages) ─── */
 .prose { max-width: 720px; }
-.page-content .prose { text-align: left; }
+.page-content .prose { text-align: left; max-width: none; }
 .prose h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -835,7 +835,7 @@ table.cmp { width: 100%; border-collapse: collapse; }
 .page-content {
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 48px 36px;
+  padding: 50px;
   text-align: left;
   background: var(--white);
 }
