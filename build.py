@@ -979,6 +979,7 @@ def build_simple_page(title, nav_active, body_content):
     return HEAD(title) + NAV() + f"""
 <div class="page-hero">
   <h1>{title}</h1>
+  </div>
 </div>
 <div class="page-content">
 {body_content}
@@ -989,7 +990,7 @@ def build_simple_page(title, nav_active, body_content):
 # ─── COMPLIANCE/INFO PAGES ───
 
 ABOUT_CONTENT = """
-<div class="prose" style="max-width:720px;">
+<div class="prose">
   <h2>About The SaaS Source</h2>
   <p>The SaaS Source is an independent B2B software review platform built to help businesses make smarter software buying decisions. We provide unbiased comparisons, in-depth reviews, and honest analysis of 200+ SaaS tools.</p>
   
@@ -1061,7 +1062,7 @@ CONTACT_CONTENT = """
 """
 
 PRIVACY_CONTENT = """
-<div class="prose" style="max-width:720px;">
+<div class="prose">
   <p><em>Last updated: January 2025</em></p>
   
   <h2>Privacy Policy</h2>
@@ -1098,7 +1099,7 @@ PRIVACY_CONTENT = """
 """
 
 AFFILIATE_CONTENT = """
-<div class="prose" style="max-width:720px;">
+<div class="prose">
   <p><em>Last updated: January 2025</em></p>
   
   <h2>Affiliate Disclosure</h2>
@@ -1122,7 +1123,7 @@ AFFILIATE_CONTENT = """
 """
 
 TERMS_CONTENT = """
-<div class="prose" style="max-width:720px;">
+<div class="prose">
   <p><em>Last updated: January 2025</em></p>
   
   <h2>Terms of Use</h2>
