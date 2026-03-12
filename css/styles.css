@@ -797,6 +797,7 @@ table.cmp { width: 100%; border-collapse: collapse; }
 
 /* ─── CONTENT PROSE (for long-form pages) ─── */
 .prose { max-width: 720px; }
+.page-content .prose { text-align: left; }
 .prose h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
@@ -835,6 +836,7 @@ table.cmp { width: 100%; border-collapse: collapse; }
   max-width: var(--container-max);
   margin: 0 auto;
   padding: 48px 36px;
+  text-align: left;
 }
 
 /* ─── CONTACT FORM ─── */
