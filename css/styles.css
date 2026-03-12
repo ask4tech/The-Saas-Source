@@ -563,7 +563,7 @@ table.bf { width: 100%; border-collapse: collapse; }
 .vb-text { font-size: 13.5px; color: var(--ink); line-height: 1.5; }
 .vb-text strong { color: var(--blue); }
 
-.detail-content { display: grid; grid-template-columns: 1fr 280px; gap: 36px; padding: 36px; align-items: start; }
+.detail-content { display: grid; grid-template-columns: 1fr 280px; gap: 45px; padding: 100px; align-items: start; }
 .detail-sticky { position: sticky; top: 80px; }
 .detail-content .prose {
   max-width: none;
@@ -1158,3 +1158,4 @@ table.cmp { width: 100%; border-collapse: collapse; }
   .cat-hero h1 { font-size: 28px; }
   .cat-stats { flex-direction: column; gap: 12px; }
 }
+
