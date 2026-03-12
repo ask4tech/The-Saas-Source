@@ -569,8 +569,7 @@ table.bf { width: 100%; border-collapse: collapse; }
 
 .detail-content { display: grid; grid-template-columns: 1fr 280px; gap: 36px; padding: 36px; align-items: start; }
 .detail-sticky { position: sticky; top: 80px; }
-.detail-content > .prose {
-  grid-column: 1 / -1;
+.detail-content .prose {
   max-width: none;
 }
 
