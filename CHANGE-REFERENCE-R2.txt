@@ -1,0 +1,104 @@
+# The SaaS Source — Round 2 Change Reference
+# =============================================
+# Three modifications applied:
+#   1. Body font size +1px (excluding info boxes)
+#   2. Footer text color → #cfcfcf, larger footer logo
+#   3. Comparison template: simulated content replacing placeholders
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CHANGE 1: FONT SIZE +1px
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# File: css/styles.css
+#
+# The following general body/content font sizes are increased
+# by 1px. UI chrome (pills, badges, tags, announcements,
+# hero-card widget internals, verdict boxes) are EXCLUDED.
+#
+#   SELECTOR                       BEFORE    AFTER
+#   ─────────────────────────────  ────────  ────────
+#   body                           15px      16px
+#   .hero-sub                      16.5px    17.5px
+#   .cat-hero-sub                  16px      17px
+#   .btn-primary                   14px      15px
+#   .btn-ghost                     14px      15px
+#   .prose p                       15px      16px
+#   .prose li                      15px      16px
+#   .page-hero p                   16px      17px
+#   .contact-info p                14px      15px
+#   .cat-list-info p               13px      14px
+#   .dm-item                       13px      14px
+#   form inputs                    14px      15px
+#   .review-form-section subtitle  14px      15px
+#   .nav-link                      13px      14px
+#   .breadcrumb                    12px      13px
+#   .sec-link                      13px      14px
+#   .footer-link                   13px      14px
+#   .footer-brand p                12.5px    13.5px
+#   .footer-legal                  12px      13px
+#
+# EXCLUDED (kept at original size):
+#   .announce, .announce span, .announce a
+#   .vb-text, .verdict-box
+#   .hc-* (hero card widget internals)
+#   .cc-* (comparison card internals)
+#   .rv-* (review card internals)
+#   .bf-* (best-for table internals)
+#   .cmp * (comparison table internals)
+#   .pill-*, .bf-pill, .hc-pill, .cc-verdict
+#   .cc-tag, .cat-cnt
+#   .nav-btn, .nav-search
+#   .form-row label, .form-row .hint
+#   .cta-card, .cta-btn, .cta-note
+#   .social-text, .s-avatar
+#   .sec-eyebrow
+#   .cat-filter-btn, .cat-filter-label
+#   .cat-stat-lbl
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CHANGE 2: FOOTER — color #cfcfcf + larger logo
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# File: css/styles.css
+#
+#   SELECTOR                          BEFORE     AFTER
+#   ──────────────────────────────── ─────────  ─────────
+#   .footer-brand p color             #6A7288    #cfcfcf
+#   .footer-brand .footer-logo color  #8090A8    #cfcfcf
+#   .footer-col h4 color              #8090A8    #cfcfcf
+#   .footer-link color                #6A7288    #cfcfcf
+#   .footer-legal color               #4A5268    #cfcfcf
+#   .footer-legal a color             #606880    #cfcfcf
+#   .footer-brand .footer-logo size   18px       22px
+#   .footer-logo-img height (if R1)   24px       32px
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# CHANGE 3: COMPARISON TEMPLATE — SIMULATED CONTENT
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# Files: comparison-template.html, build.py
+#
+# The placeholder prose block (starting with
+# "<!-- Placeholder for long-form comparison content -->"
+# and ending with the Final Verdict em placeholder)
+# is replaced with fully-written simulated content covering:
+#
+#   - Detailed Comparison (intro with testing methodology)
+#   - Pricing Comparison (HubSpot free/starter/pro/enterprise
+#     vs ActiveCampaign starter/plus/pro/enterprise with
+#     specific dollar amounts and feature breakdowns)
+#   - CRM & Contact Management (HubSpot's strengths in
+#     contact intelligence vs AC's functional but secondary CRM)
+#   - Email Marketing & Automation (AC's superior automation
+#     builder, deliverability rates 93-96% vs 89-93%)
+#   - Reporting & Analytics (HubSpot's attribution reporting
+#     vs AC's email-focused analytics)
+#   - Integration Ecosystem (1,500+ vs 900+ integrations)
+#   - Final Verdict (nuanced recommendation by use case)
+#
+# All content is simulated/representative — written to
+# demonstrate the layout and visual format of long-form
+# comparison content on the page.
