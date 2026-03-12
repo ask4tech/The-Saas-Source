@@ -519,6 +519,7 @@ def build_category_page(category_name, slug, nav_key, products_list, description
 <!-- Category Hero -->
 <div class="cat-hero">
   <div class="hero-inner">
+  <div class="cat-hero-left">
   <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>{category_name}</span></div>
   <h1>Best {category_name} Software<br><span style="color:var(--blue);">— 2025 Rankings & Reviews</span></h1>
   <p class="cat-hero-sub">{description}</p>
@@ -526,6 +527,15 @@ def build_category_page(category_name, slug, nav_key, products_list, description
     <div class="cat-stat"><div class="cat-stat-num">{len(products_list)}</div><div class="cat-stat-lbl">Tools Reviewed</div></div>
     <div class="cat-stat"><div class="cat-stat-num">2,840+</div><div class="cat-stat-lbl">User Reviews</div></div>
     <div class="cat-stat"><div class="cat-stat-num">Monthly</div><div class="cat-stat-lbl">Updated</div></div>
+  </div>
+  </div>
+    <div class="cat-hero-widget">
+      <div class="cat-widget-header">
+        <div class="cat-widget-title">Quick Compare Tools</div>
+        <div class="cat-widget-badge">Top Rated</div>
+      </div>
+      <div class="cat-widget-label">Category-specific tools will appear here</div>
+    </div>
   </div>
 </div>
 
