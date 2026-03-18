@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The SaaS Source — Independent B2B SaaS Reviews & Comparisons</title>
+  <meta name="description" content="Unbiased comparisons, detailed reviews, and honest breakdowns for B2B SaaS tools. No sponsored rankings. Find the right software for your business.">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─────────────────────────────────────────────
+       RESET & BASE
+    ───────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue:         #3d9bd4;
+      --blue-dark:    #1e6fa0;
+      --blue-light:   #e8f4fb;
+      --blue-bg:      #eef6fc;
+      --navy:         #0f2744;
+      --black:        #111111;
+      --charcoal:     #3a3a3a;
+      --gray:         #6b6b6b;
+      --gray-light:   #9ab0be;
+      --border:       #e4e8ec;
+      --bg-warm:      #f8f9fb;
+      --bg-cream:     #fafaf8;
+      --amber:        #e8902a;
+      --green:        #2a9e6a;
+      --radius:       8px;
+      --radius-lg:    12px;
+      --radius-xl:    16px;
+      --shadow-sm:    0 1px 4px rgba(0,0,0,0.07);
+      --shadow-md:    0 4px 18px rgba(0,0,0,0.09);
+      --shadow-lg:    0 12px 40px rgba(0,0,0,0.18);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--charcoal);
+      background: #fff;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--blue); text-decoration: none; transition: color 0.15s; }
+    a:hover { color: var(--blue-dark); }
+
+    img { max-width: 100%; height: auto; display: block; }
+
+    /* ─────────────────────────────────────────────
+       LAYOUT UTILITIES
+    ───────────────────────────────────────────── */
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    .section          { padding: 64px 0; }
+    .section-alt      { background: var(--bg-warm); }
+    .section-blue     { background: var(--blue-bg); }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 28px;
+      font-weight: 400;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+
+    .section-sub {
+      font-size: 14px;
+      color: var(--gray);
+      margin-top: 6px;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 36px;
+    }
+
+    .section-link {
+      font-size: 13px;
+      color: var(--blue);
+      font-weight: 500;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* ─────────────────────────────────────────────
+       BUTTONS
+    ───────────────────────────────────────────── */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 11px 22px;
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+      text-decoration: none;
+      line-height: 1;
+    }
+
+    .btn-primary {
+      background: var(--blue);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--blue-dark);
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(61,155,212,0.35);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.32);
+    }
+    .btn-outline:hover {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+
+    /* ─────────────────────────────────────────────
+       VENDOR BADGE COLORS
+    ───────────────────────────────────────────── */
+    .badge-hs { background: #ff7a59; color: #fff; }
+    .badge-ac { background: #356ae6; color: #fff; }
+    .badge-kj { background: #1a1a2e; color: #fff; }
+    .badge-cf { background: #e8412a; color: #fff; }
+    .badge-br { background: #0b81ff; color: #fff; }
+    .badge-sf { background: #00a1e0; color: #fff; }
+
+    /* ─────────────────────────────────────────────
+       ANNOUNCEMENT BAR
+    ───────────────────────────────────────────── */
+    .ann-bar {
+      background: var(--navy);
+      color: rgba(255,255,255,0.82);
+      text-align: center;
+      padding: 9px 20px;
+      font-size: 13px;
+      letter-spacing: 0.01em;
+    }
+
+    .ann-bar a {
+      color: var(--blue);
+      font-weight: 600;
+      margin-left: 8px;
+    }
+
+    /* ─────────────────────────────────────────────
+       NAVIGATION
+    ───────────────────────────────────────────── */
+    .nav-wrap {
+      background: #fff;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      height: 64px;
+      max-width: 1920px;
+      margin: 0 auto;
+      padding: 0 100px;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      margin-right: 36px;
+      flex-shrink: 0;
+      text-decoration: none;
+    }
+    .nav-logo img {
+      height: 42px;
+      width: auto;
+      display: block;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0;
+      list-style: none;
+      flex: 1;
+    }
+
+    .nav-links a {
+      display: block;
+      padding: 0 14px;
+      height: 64px;
+      line-height: 64px;
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--charcoal);
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .nav-links a:hover {
+      color: var(--blue);
+      border-bottom-color: var(--blue);
+    }
+
+    .nav-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bg-warm);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 7px 13px;
+      font-size: 13px;
+      color: var(--gray);
+      margin-right: 14px;
+      cursor: text;
+      min-width: 180px;
+    }
+    .nav-search svg { flex-shrink: 0; opacity: 0.5; }
+
+    .nav-cta {
+      background: var(--blue);
+      color: #fff;
+      border: none;
+      padding: 9px 18px;
+      border-radius: var(--radius);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      font-family: 'DM Sans', sans-serif;
+      white-space: nowrap;
+      transition: background 0.2s;
+      flex-shrink: 0;
+    }
+    .nav-cta:hover { background: var(--blue-dark); }
+
+    /* ─────────────────────────────────────────────
+       HERO
+    ───────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #1a3f6b 0%, #1f5a8e 58%, #2a6fa8 100%);
+      padding: 72px 0 80px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -80px; right: -80px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(61,155,212,0.14) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; left: 30%;
+      width: 280px; height: 280px;
+      background: radial-gradient(circle, rgba(61,155,212,0.07) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero .container {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 56px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Left */
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(61,155,212,0.16);
+      border: 1px solid rgba(61,155,212,0.30);
+      color: #a8d8f0;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 13px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .hero-eyebrow::before {
+      content: '';
+      width: 6px; height: 6px;
+      background: var(--blue);
+      border-radius: 50%;
+      display: inline-block;
+      flex-shrink: 0;
+    }
+
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 46px;
+      line-height: 1.13;
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 18px;
+    }
+    .hero h1 em {
+      color: var(--blue);
+      font-style: normal;
+    }
+
+    .hero-sub {
+      font-size: 16px;
+      line-height: 1.65;
+      color: #ffffff;
+      margin-bottom: 32px;
+      max-width: 480px;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .hero-trust {
+      display: flex;
+      gap: 22px;
+      flex-wrap: wrap;
+    }
+    .hero-trust-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #ffffff;
+    }
+    .hero-trust-item::before {
+      content: '✓';
+      color: var(--blue);
+      font-weight: 700;
+      font-size: 11px;
+    }
+
+    /* Hero Card */
+    .hero-card {
+      background: #fff;
+      border-radius: var(--radius-xl);
+      padding: 26px;
+      box-shadow: var(--shadow-lg);
+    }
+
+    .hero-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .hero-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .hero-card-count {
+      font-size: 11px;
+      color: var(--blue);
+      background: var(--blue-bg);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-weight: 600;
+    }
+
+    .hero-search-box {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--bg-warm);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 13px;
+      color: var(--gray);
+      cursor: text;
+    }
+
+    .hero-filters {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .filter-tag {
+      background: var(--blue-bg);
+      color: var(--blue-dark);
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.15s;
+    }
+    .filter-tag:hover,
+    .filter-tag.active {
+      background: var(--blue);
+      color: #fff;
+      border-color: var(--blue);
+    }
+
+    .tool-list {
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+
+    .tool-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 13px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: all 0.18s;
+      background: #fff;
+      text-decoration: none;
+    }
+    .tool-row:hover {
+      border-color: var(--blue);
+      background: var(--blue-bg);
+      transform: translateX(3px);
+    }
+
+    .tool-badge {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 11px;
+      flex-shrink: 0;
+      letter-spacing: -0.5px;
+    }
+
+    .tool-info { flex: 1; min-width: 0; }
+    .tool-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+    .tool-cat {
+      font-size: 11px;
+      color: var(--gray);
+    }
+
+    .tool-chip {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 12px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      flex-shrink: 0;
+    }
+
+    /* ─────────────────────────────────────────────
+       CATEGORY BAR
+    ───────────────────────────────────────────── */
+    .cat-bar {
+      background-color: #f8f9fb;
+      border-bottom: 1px solid var(--border);
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .cat-bar .container {
+      display: flex;
+      gap: 0;
+    }
+
+    .cat-item {
+      padding: 14px 18px;
+      font-size: 13px;
+      color: var(--gray);
+      cursor: pointer;
+      white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: all 0.15s;
+      text-decoration: none;
+      display: block;
+    }
+    .cat-item:hover,
+    .cat-item.active {
+      color: var(--blue);
+      border-bottom-color: var(--blue);
+      font-weight: 500;
+    }
+
+    /* ─────────────────────────────────────────────
+       COMPARISON CARDS
+    ───────────────────────────────────────────── */
+    .comp-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .comp-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: all 0.2s;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    .comp-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--blue);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .comp-card:hover {
+      border-color: var(--blue);
+      box-shadow: 0 6px 24px rgba(61,155,212,0.12);
+      transform: translateY(-3px);
+    }
+    .comp-card:hover::before { opacity: 1; }
+
+    .comp-vs-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .vs-badge {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 11px;
+      flex-shrink: 0;
+      letter-spacing: -0.3px;
+    }
+
+    .vs-sep {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--gray);
+      padding: 0 2px;
+    }
+
+    .comp-verdict {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #eef8f3;
+      color: #1a7a4e;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 12px;
+      line-height: 1.4;
+    }
+    .comp-verdict::before { content: '→'; }
+
+    .comp-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.4;
+    }
+
+    .comp-snippet {
+      font-size: 13px;
+      color: var(--gray);
+      line-height: 1.65;
+      flex: 1;
+    }
+
+    .comp-tags {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .comp-tag {
+      font-size: 11px;
+      background: var(--bg-warm);
+      color: var(--gray);
+      padding: 3px 9px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .comp-cta {
+      font-size: 13px;
+      color: var(--blue);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      margin-top: auto;
+    }
+
+    /* ─────────────────────────────────────────────
+       REVIEW CARDS
+    ───────────────────────────────────────────── */
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .review-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: all 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .review-card:hover {
+      border-color: var(--blue);
+      box-shadow: 0 6px 20px rgba(61,155,212,0.1);
+      transform: translateY(-3px);
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+
+    .review-logo {
+      width: 42px; height: 42px;
+      border-radius: 9px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13px;
+      flex-shrink: 0;
+      color: #fff;
+    }
+
+    .review-name {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.2;
+    }
+    .review-cat {
+      font-size: 11px;
+      color: var(--gray);
+    }
+
+    .review-score-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .review-score {
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      color: var(--navy);
+      line-height: 1;
+    }
+    .review-score sup {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      color: var(--gray);
+      font-weight: 400;
+    }
+
+    .editorial-badge {
+      font-size: 10px;
+      background: var(--blue-bg);
+      color: var(--blue-dark);
+      padding: 3px 9px;
+      border-radius: 10px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    .stars {
+      color: var(--amber);
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .score-bars {
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    .score-bar-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      color: var(--gray);
+    }
+    .score-bar-label { min-width: 78px; }
+    .score-bar-track {
+      flex: 1;
+      height: 4px;
+      background: var(--bg-warm);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+    .score-bar-fill {
+      height: 100%;
+      background: var(--blue);
+      border-radius: 3px;
+      transition: width 0.6s ease;
+    }
+    .score-bar-val {
+      font-weight: 600;
+      color: var(--charcoal);
+      min-width: 24px;
+      text-align: right;
+      font-size: 11px;
+    }
+
+    .best-for {
+      font-size: 12px;
+      color: var(--gray);
+      line-height: 1.55;
+      padding: 8px 10px;
+      background: var(--bg-warm);
+      border-radius: var(--radius);
+    }
+    .best-for strong { color: var(--charcoal); }
+
+    .watch-out {
+      font-size: 12px;
+      background: #fff8f0;
+      border-left: 2px solid var(--amber);
+      padding: 7px 10px;
+      color: #7a5020;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      line-height: 1.5;
+    }
+
+    .review-cta {
+      font-size: 13px;
+      color: var(--blue);
+      font-weight: 500;
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* ─────────────────────────────────────────────
+       CRM TABLE  (header is BLACK)
+    ───────────────────────────────────────────── */
+    .table-wrap {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .crm-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    .crm-table thead {
+      background: var(--black);   /* ← BLACK header */
+    }
+
+    .crm-table thead th {
+      color: #7a9db8;
+      font-weight: 500;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      padding: 13px 18px;
+      text-align: left;
+    }
+
+    .crm-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    .crm-table tbody tr:last-child { border-bottom: none; }
+    .crm-table tbody tr:hover { background: var(--blue-bg); }
+
+    .crm-table td {
+      padding: 14px 18px;
+      vertical-align: middle;
+      color: var(--charcoal);
+    }
+
+    .table-tool {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+    }
+
+    .table-badge {
+      width: 32px; height: 32px;
+      border-radius: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    .table-name {
+      font-weight: 600;
+      color: var(--navy);
+      font-size: 13px;
+      line-height: 1.2;
+    }
+    .table-type {
+      font-size: 11px;
+      color: var(--gray);
+    }
+
+    .table-best { font-size: 13px; color: var(--charcoal); }
+    .table-price { font-weight: 600; color: var(--charcoal); font-size: 13px; }
+
+    .check-yes { color: var(--green); font-weight: 700; font-size: 16px; }
+    .check-no  { color: #ccc; font-size: 16px; }
+
+    .rating-pill {
+      display: inline-block;
+      background: var(--blue-bg);
+      color: var(--blue-dark);
+      font-size: 12px;
+      font-weight: 700;
+      padding: 4px 11px;
+      border-radius: 12px;
+    }
+
+    .table-review-link {
+      color: var(--blue);
+      font-size: 13px;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .table-note {
+      font-size: 11px;
+      color: var(--gray);
+      padding: 12px 18px;
+      background: var(--bg-warm);
+      border-top: 1px solid var(--border);
+      line-height: 1.65;
+    }
+    .table-note a { color: var(--blue); }
+
+    /* ─────────────────────────────────────────────
+       CTA BAND
+    ───────────────────────────────────────────── */
+    .cta-band {
+      background: linear-gradient(135deg, var(--navy) 0%, #1a3a5c 100%);
+      padding: 64px 0;
+    }
+
+    .cta-band-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .cta-band-heading {
+      font-family: 'DM Serif Display', serif;
+      font-size: 30px;
+      font-weight: 400;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .cta-band-sub {
+      font-size: 15px;
+      color: #9ab8cc;
+      max-width: 480px;
+      line-height: 1.6;
+    }
+
+    .cta-band-actions {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    .cta-band-link {
+      font-size: 14px;
+      font-weight: 500;
+      color: #7ecbf0;
+      white-space: nowrap;
+    }
+    .cta-band-link:hover { color: #fff; }
+
+    /* ─────────────────────────────────────────────
+       FOOTER  (matches mockup — dark charcoal)
+    ───────────────────────────────────────────── */
+    .footer {
+      background: #1e2530;
+      color: #fff;
+      padding: 56px 0 28px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr 1fr 1fr;
+      gap: 44px;
+      margin-bottom: 44px;
+    }
+
+    .footer-logo {
+      display: block;
+      margin-bottom: 18px;
+    }
+    .footer-logo-img {
+      height: 75px;
+      object-fit: contain;
+      filter: brightness(1.3);
+    }
+
+    .footer-tagline {
+      font-size: 13px;
+      color: #fff;
+      line-height: 1.7;
+      max-width: 240px;
+      margin-bottom: 0;
+    }
+
+    .footer-col-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: #3C82C8;
+      margin-bottom: 16px;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 9px;
+    }
+    .footer-links a {
+      color: #fff;
+      font-size: 13px;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .footer-links a:hover { color: var(--blue); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 12px;
+      color: #fff;
+    }
+    .footer-bottom a { color: #fff; transition: color 0.15s; }
+    .footer-bottom a:hover { color: var(--blue); }
+
+    .footer-disclosure { font-size: 11px; color: #fff; }
+    .footer-disclosure a { color: var(--blue); }
+
+    /* ─────────────────────────────────────────────
+       RESPONSIVE (basic — developer should extend)
+    ───────────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      .hero .container { grid-template-columns: 1fr; }
+      .hero-card { max-width: 500px; }
+      .comp-grid { grid-template-columns: 1fr; }
+      .review-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .methodology-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 0 20px; }
+      .hero { padding: 48px 0 56px; }
+      .hero h1 { font-size: 34px; }
+      .review-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       ANNOUNCEMENT BAR
+  ═══════════════════════════════════════════ -->
+  <div class="ann-bar">
+    Just published: HubSpot vs ActiveCampaign — the most complete comparison for SMBs in 2026
+    <a href="/hubspot-vs-activecampaign/">Read it →</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <div class="nav-wrap">
+    <nav class="container nav">
+      <a href="/" class="nav-logo">
+        <img src="https://thesaassource.co/mockup3/images/logo.png" alt="The SaaS Source">
+      </a>
+      <ul class="nav-links">
+        <li><a href="/crm/">CRM Software</a></li>
+        <li><a href="/email-marketing/">Email Marketing</a></li>
+        <li><a href="/marketing-automation/">Automation</a></li>
+        <li><a href="/sales-funnels/">Sales & Funnels</a></li>
+        <li><a href="/customer-support/">Support</a></li>
+        <li><a href="/comparisons/">Comparisons</a></li>
+        <li><a href="/alternatives/">Alternatives</a></li>
+      </ul>
+      <div class="nav-search">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <circle cx="6" cy="6" r="4.5" stroke="#6b6b6b" stroke-width="1.3"/>
+          <path d="M9.5 9.5L12 12" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round"/>
+        </svg>
+        Search software…
+      </div>
+      <button class="nav-cta" onclick="window.location='/comparisons/'">Compare Tools →</button>
+    </nav>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero">
+    <div class="container">
+
+      <!-- Left copy -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">Independent B2B SaaS Reviews · No Sponsored Rankings</div>
+        <h1>Stop Paying for the <em>Wrong</em> Software.</h1>
+        <p class="hero-sub">We research, score, and compare 50+ B2B SaaS tools so you don't have to. No vendor bias. No fluff. Just clear answers on which tool is actually right for your business.</p>
+        <div class="hero-btns">
+          <a href="/comparisons/" class="btn btn-primary">Browse Comparisons →</a>
+          <a href="/search/" class="btn btn-outline">🔍 Find Your Tool</a>
+        </div>
+        <div class="hero-trust">
+          <span class="hero-trust-item">No sponsored rankings</span>
+          <span class="hero-trust-item">Affiliate links disclosed</span>
+          <span class="hero-trust-item">Pricing verified 2026</span>
+        </div>
+      </div>
+
+      <!-- Right card -->
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <div class="hero-card-title">Find Your Best Match</div>
+            <div class="hero-card-count">50+ tools reviewed</div>
+          </div>
+          <div class="hero-search-box">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <circle cx="6" cy="6" r="4.5" stroke="#6b6b6b" stroke-width="1.3"/>
+              <path d="M9.5 9.5L12 12" stroke="#6b6b6b" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+            Search by tool, category, or use case…
+          </div>
+          <div class="hero-filters">
+            <a href="/crm/" class="filter-tag active">CRM</a>
+            <a href="/email-marketing/" class="filter-tag">Email</a>
+            <a href="/sales-funnels/" class="filter-tag">Funnels</a>
+            <a href="/customer-support/" class="filter-tag">Support</a>
+            <a href="/marketing-automation/" class="filter-tag">Automation</a>
+          </div>
+          <div class="tool-list">
+            <a href="/hubspot-review/" class="tool-row">
+              <div class="tool-badge badge-hs">HS</div>
+              <div class="tool-info">
+                <div class="tool-name">HubSpot</div>
+                <div class="tool-cat">CRM + Marketing</div>
+              </div>
+              <div class="tool-chip" style="background:#fff3ef;color:#c4542a;">⭐ Top Pick</div>
+            </a>
+            <a href="/activecampaign-review/" class="tool-row">
+              <div class="tool-badge badge-ac">AC</div>
+              <div class="tool-info">
+                <div class="tool-name">ActiveCampaign</div>
+                <div class="tool-cat">Email + Automation</div>
+              </div>
+              <div class="tool-chip" style="background:#eef6fb;color:#1e6fa0;">💰 Best Value</div>
+            </a>
+            <a href="/kajabi-review/" class="tool-row">
+              <div class="tool-badge badge-kj">KJ</div>
+              <div class="tool-info">
+                <div class="tool-name">Kajabi</div>
+                <div class="tool-cat">Courses + Funnels</div>
+              </div>
+              <div class="tool-chip" style="background:#f0effe;color:#4a3fb5;">🎯 Best for Creators</div>
+            </a>
+            <a href="/clickfunnels-review/" class="tool-row">
+              <div class="tool-badge badge-cf">CF</div>
+              <div class="tool-info">
+                <div class="tool-name">ClickFunnels</div>
+                <div class="tool-cat">Sales Funnels</div>
+              </div>
+              <div class="tool-chip" style="background:#fff0ee;color:#b03a28;">🔥 Most Popular</div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CATEGORY BAR
+  ═══════════════════════════════════════════ -->
+  <div class="cat-bar">
+    <div class="container">
+      <a href="/reviews/" class="cat-item active">All</a>
+      <a href="/crm/" class="cat-item">CRM Software</a>
+      <a href="/email-marketing/" class="cat-item">Email Marketing</a>
+      <a href="/marketing-automation/" class="cat-item">Marketing Automation</a>
+      <a href="/sales-funnels/" class="cat-item">Sales & Funnels</a>
+      <a href="/customer-support/" class="cat-item">Customer Support</a>
+      <a href="/comparisons/" class="cat-item">Comparisons</a>
+      <a href="/alternatives/" class="cat-item">Alternatives</a>
+      <a href="/pricing/" class="cat-item">Pricing</a>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       HEAD-TO-HEAD COMPARISONS
+  ═══════════════════════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Most Popular</div>
+          <div class="section-title">Head-to-Head Comparisons</div>
+        </div>
+        <a href="/comparisons/" class="section-link">View all comparisons →</a>
+      </div>
+      <div class="comp-grid">
+
+        <a href="/hubspot-vs-activecampaign/" class="comp-card">
+          <div class="comp-vs-row">
+            <div class="vs-badge badge-hs">HS</div>
+            <div class="vs-sep">VS</div>
+            <div class="vs-badge badge-ac">AC</div>
+          </div>
+          <div class="comp-verdict">HubSpot for most. ActiveCampaign if automation is everything.</div>
+          <div class="comp-title">HubSpot vs ActiveCampaign — Which Is Actually Worth It for SMBs?</div>
+          <div class="comp-snippet">HubSpot gives you CRM, email, and marketing in one place. ActiveCampaign is the smarter buy if email automation is your core need and you don't want to pay for features you won't use.</div>
+          <div class="comp-tags">
+            <span class="comp-tag">CRM</span>
+            <span class="comp-tag">Email</span>
+            <span class="comp-tag">SMB</span>
+          </div>
+          <div class="comp-cta">Read full breakdown →</div>
+        </a>
+
+        <a href="/kajabi-vs-clickfunnels/" class="comp-card">
+          <div class="comp-vs-row">
+            <div class="vs-badge badge-kj">KJ</div>
+            <div class="vs-sep">VS</div>
+            <div class="vs-badge badge-cf">CF</div>
+          </div>
+          <div class="comp-verdict">Kajabi for creators. ClickFunnels for pure funnel builders.</div>
+          <div class="comp-title">Kajabi vs ClickFunnels — Which One Should Creators Actually Use?</div>
+          <div class="comp-snippet">Kajabi is built for knowledge entrepreneurs — courses, community, email, payments. ClickFunnels delivers better if sales funnels are your only real need.</div>
+          <div class="comp-tags">
+            <span class="comp-tag">Funnels</span>
+            <span class="comp-tag">Courses</span>
+            <span class="comp-tag">Creators</span>
+          </div>
+          <div class="comp-cta">Read full breakdown →</div>
+        </a>
+
+        <a href="/hubspot-vs-salesforce/" class="comp-card">
+          <div class="comp-vs-row">
+            <div class="vs-badge badge-hs">HS</div>
+            <div class="vs-sep">VS</div>
+            <div class="vs-badge badge-sf">SF</div>
+          </div>
+          <div class="comp-verdict">HubSpot under 500 seats. Salesforce above it.</div>
+          <div class="comp-title">HubSpot vs Salesforce — Which CRM Is Right for Your Stage?</div>
+          <div class="comp-snippet">Salesforce is the enterprise standard but overkill for most growing businesses. HubSpot closes the feature gap while being dramatically easier to adopt and more affordable until you hit serious scale.</div>
+          <div class="comp-tags">
+            <span class="comp-tag">CRM</span>
+            <span class="comp-tag">Enterprise</span>
+            <span class="comp-tag">SMB</span>
+          </div>
+          <div class="comp-cta">Read full breakdown →</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CALL TO ACTION BAND
+  ═══════════════════════════════════════════ -->
+  <section class="cta-band">
+    <div class="container cta-band-inner">
+      <div class="cta-band-copy">
+        <div class="section-label" style="color:#7ecbf0;">Independent · Unbiased · Always Transparent</div>
+        <h2 class="cta-band-heading">Stop Guessing. Start Comparing.</h2>
+        <p class="cta-band-sub">Every review is editorial. No vendor pays to influence our scores — so you can trust what you read.</p>
+      </div>
+      <div class="cta-band-actions">
+        <a href="/comparisons/" class="btn btn-primary">Browse All Comparisons →</a>
+        <a href="/how-we-review/" class="cta-band-link">How we review software →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       EXPERT REVIEWS
+  ═══════════════════════════════════════════ -->
+  <section class="section section-blue">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Expert Reviews</div>
+          <div class="section-title">Top-Rated Tools for 2026</div>
+        </div>
+        <a href="/reviews/" class="section-link">See all reviews →</a>
+      </div>
+      <div class="review-grid">
+
+        <!-- HubSpot -->
+        <a href="/hubspot-review/" class="review-card">
+          <div class="review-header">
+            <div class="review-logo badge-hs">HS</div>
+            <div>
+              <div class="review-name">HubSpot</div>
+              <div class="review-cat">CRM & Marketing</div>
+            </div>
+          </div>
+          <div class="review-score-row">
+            <div class="review-score">9.1<sup>/10</sup></div>
+            <div class="editorial-badge">Editorial Score</div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Ease of Use</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:90%"></div></div>
+              <span class="score-bar-val">9.0</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Features</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:93%"></div></div>
+              <span class="score-bar-val">9.3</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Value</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:78%"></div></div>
+              <span class="score-bar-val">7.8</span>
+            </div>
+          </div>
+          <div class="best-for"><strong>Best for:</strong> SMBs that want CRM, email, and marketing tools without managing three separate platforms</div>
+          <div class="watch-out">⚠ Costs climb fast once you add hubs and scale contacts past free tier limits</div>
+          <div class="review-cta">Read Full Review →</div>
+        </a>
+
+        <!-- ActiveCampaign -->
+        <a href="/activecampaign-review/" class="review-card">
+          <div class="review-header">
+            <div class="review-logo badge-ac">AC</div>
+            <div>
+              <div class="review-name">ActiveCampaign</div>
+              <div class="review-cat">Email Automation</div>
+            </div>
+          </div>
+          <div class="review-score-row">
+            <div class="review-score">8.8<sup>/10</sup></div>
+            <div class="editorial-badge">Editorial Score</div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Ease of Use</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:82%"></div></div>
+              <span class="score-bar-val">8.2</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Features</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:91%"></div></div>
+              <span class="score-bar-val">9.1</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Value</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:89%"></div></div>
+              <span class="score-bar-val">8.9</span>
+            </div>
+          </div>
+          <div class="best-for"><strong>Best for:</strong> Businesses where email automation is the core of their marketing — not just a feature</div>
+          <div class="watch-out">⚠ Pricing scales quickly with list size — can get expensive for large contact lists</div>
+          <div class="review-cta">Read Full Review →</div>
+        </a>
+
+        <!-- Kajabi -->
+        <a href="/kajabi-review/" class="review-card">
+          <div class="review-header">
+            <div class="review-logo badge-kj">KJ</div>
+            <div>
+              <div class="review-name">Kajabi</div>
+              <div class="review-cat">Courses & Funnels</div>
+            </div>
+          </div>
+          <div class="review-score-row">
+            <div class="review-score">8.6<sup>/10</sup></div>
+            <div class="editorial-badge">Editorial Score</div>
+          </div>
+          <div class="stars">★★★★★</div>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Ease of Use</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:88%"></div></div>
+              <span class="score-bar-val">8.8</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Features</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:85%"></div></div>
+              <span class="score-bar-val">8.5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Value</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:79%"></div></div>
+              <span class="score-bar-val">7.9</span>
+            </div>
+          </div>
+          <div class="best-for"><strong>Best for:</strong> Creators and coaches who want courses, email, payments, and community in one platform</div>
+          <div class="watch-out">⚠ Pricing increased significantly in January 2026 — evaluate total cost vs. separate tools</div>
+          <div class="review-cta">Read Full Review →</div>
+        </a>
+
+        <!-- ClickFunnels -->
+        <a href="/clickfunnels-review/" class="review-card">
+          <div class="review-header">
+            <div class="review-logo badge-cf">CF</div>
+            <div>
+              <div class="review-name">ClickFunnels</div>
+              <div class="review-cat">Sales Funnels</div>
+            </div>
+          </div>
+          <div class="review-score-row">
+            <div class="review-score">8.3<sup>/10</sup></div>
+            <div class="editorial-badge">Editorial Score</div>
+          </div>
+          <div class="stars">★★★★☆</div>
+          <div class="score-bars">
+            <div class="score-bar-row">
+              <span class="score-bar-label">Ease of Use</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:85%"></div></div>
+              <span class="score-bar-val">8.5</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Features</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:82%"></div></div>
+              <span class="score-bar-val">8.2</span>
+            </div>
+            <div class="score-bar-row">
+              <span class="score-bar-label">Value</span>
+              <div class="score-bar-track"><div class="score-bar-fill" style="width:80%"></div></div>
+              <span class="score-bar-val">8.0</span>
+            </div>
+          </div>
+          <div class="best-for"><strong>Best for:</strong> Marketers and entrepreneurs focused on building high-converting sales funnels</div>
+          <div class="watch-out">⚠ Less suitable as an all-in-one — pairs best with a separate email marketing tool</div>
+          <div class="review-cta">Read Full Review →</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CRM TABLE
+  ═══════════════════════════════════════════ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <div class="section-label">Quick Reference</div>
+          <div class="section-title">Best CRM & Marketing Software for 2026</div>
+          <div class="section-sub">Not sure where to start? Here's how the top tools compare at a glance.</div>
+        </div>
+        <a href="/best-crm-software/" class="section-link">View full guide →</a>
+      </div>
+      <div class="table-wrap">
+        <table class="crm-table">
+          <thead>
+            <tr>
+              <th>Software</th>
+              <th>Best For</th>
+              <th>Starting Price</th>
+              <th>Free Plan</th>
+              <th>Automation</th>
+              <th>Our Score</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="table-tool">
+                  <div class="table-badge badge-hs">HS</div>
+                  <div>
+                    <div class="table-name">HubSpot</div>
+                    <div class="table-type">CRM + Marketing</div>
+                  </div>
+                </div>
+              </td>
+              <td class="table-best">All-in-one SMBs</td>
+              <td class="table-price">Free / $20/mo+</td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="rating-pill">9.1 / 10</span></td>
+              <td><a href="/hubspot-review/" class="table-review-link">Review →</a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-tool">
+                  <div class="table-badge badge-ac">AC</div>
+                  <div>
+                    <div class="table-name">ActiveCampaign</div>
+                    <div class="table-type">Email + Automation</div>
+                  </div>
+                </div>
+              </td>
+              <td class="table-best">Email automation</td>
+              <td class="table-price">$15/mo</td>
+              <td><span class="check-no">—</span></td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="rating-pill">8.8 / 10</span></td>
+              <td><a href="/activecampaign-review/" class="table-review-link">Review →</a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-tool">
+                  <div class="table-badge badge-kj">KJ</div>
+                  <div>
+                    <div class="table-name">Kajabi</div>
+                    <div class="table-type">Courses + Funnels</div>
+                  </div>
+                </div>
+              </td>
+              <td class="table-best">Course creators</td>
+              <td class="table-price">$149/mo</td>
+              <td><span class="check-no">—</span></td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="rating-pill">8.6 / 10</span></td>
+              <td><a href="/kajabi-review/" class="table-review-link">Review →</a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-tool">
+                  <div class="table-badge badge-cf">CF</div>
+                  <div>
+                    <div class="table-name">ClickFunnels</div>
+                    <div class="table-type">Sales Funnels</div>
+                  </div>
+                </div>
+              </td>
+              <td class="table-best">Sales funnels</td>
+              <td class="table-price">$97/mo</td>
+              <td><span class="check-no">—</span></td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="rating-pill">8.3 / 10</span></td>
+              <td><a href="/clickfunnels-review/" class="table-review-link">Review →</a></td>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-tool">
+                  <div class="table-badge badge-br">BR</div>
+                  <div>
+                    <div class="table-name">Brevo</div>
+                    <div class="table-type">Email Marketing</div>
+                  </div>
+                </div>
+              </td>
+              <td class="table-best">Budget email</td>
+              <td class="table-price">Free / $9/mo+</td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="check-yes">✓</span></td>
+              <td><span class="rating-pill">8.1 / 10</span></td>
+              <td><a href="/brevo-review/" class="table-review-link">Review →</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="table-note">
+          Prices verified March 2026. SaaS pricing changes frequently — always confirm on the vendor's site before purchasing.
+          Some links on this page are affiliate links. <a href="/affiliate-disclosure/">Learn how this works →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <a href="/" class="footer-logo">
+            <img class="footer-logo-img" src="https://thesaassource.co/mockup3/images/logo.png" alt="The SaaS Source">
+          </a>
+          <div class="footer-tagline">Independent research and unbiased comparisons for B2B software buyers. We help you find the right tool — without the hype.</div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Categories</div>
+          <ul class="footer-links">
+            <li><a href="/crm/">CRM Software</a></li>
+            <li><a href="/email-marketing/">Email Marketing</a></li>
+            <li><a href="/marketing-automation/">Marketing Automation</a></li>
+            <li><a href="/sales-funnels/">Sales & Funnels</a></li>
+            <li><a href="/customer-support/">Customer Support</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Comparisons</div>
+          <ul class="footer-links">
+            <li><a href="/hubspot-vs-salesforce/">HubSpot vs Salesforce</a></li>
+            <li><a href="/kajabi-vs-clickfunnels/">Kajabi vs ClickFunnels</a></li>
+            <li><a href="/zendesk-vs-intercom/">Zendesk vs Intercom</a></li>
+            <li><a href="/activecampaign-vs-brevo/">ActiveCampaign vs Brevo</a></li>
+            <li><a href="/comparisons/">View All →</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Company</div>
+          <ul class="footer-links">
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/how-we-review/">How We Review</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/terms-of-use/">Terms of Use</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 The SaaS Source · Nomad Design Holdings, LLC ·
+          <a href="/privacy-policy/">Privacy Policy</a> ·
+          <a href="/affiliate-disclosure/">Affiliate Disclosure</a> ·
+          <a href="/terms-of-use/">Terms of Use</a>
+        </div>
+        <div class="footer-disclosure">
+          Independent reviews. We may earn commissions — <a href="/affiliate-disclosure/">learn how</a>.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
